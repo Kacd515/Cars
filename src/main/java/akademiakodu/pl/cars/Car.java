@@ -1,10 +1,6 @@
 package akademiakodu.pl.cars;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Car {
-
 
 
     private String brand;
@@ -13,20 +9,13 @@ public class Car {
 
     private String description;
 
-    private static List<Car> cars = new ArrayList<>();
-
-    public static List<Car> findAll() {
-        return cars;
-    }
-
     public Car() {
-        cars.add(this);
     }
 
     public String toString() {
         return
-                getBrand()+" "+
-                        getModel()+" "+
+                getBrand() + " " +
+                        getModel() + " " +
                         getDescription();
     }
 
