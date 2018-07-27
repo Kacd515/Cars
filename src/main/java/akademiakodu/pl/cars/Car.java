@@ -2,6 +2,7 @@ package akademiakodu.pl.cars;
 
 public class Car {
 
+    private int A = 0;
 
     private String brand;
 
